@@ -1,17 +1,17 @@
-# Project Report: Computers Website
+# Project Report: Computer Networks Website
 
 ## Introduction
-This report presents the Computers Website project, designed to educate users about computers. The website covers the history, types, components, and societal impact of computers. It is structured using HTML and styled with CSS, ensuring clarity and visual appeal.
+This report presents the Computer Networks Website project, designed to educate users about computer networks. The website covers the history, types, components, and societal impact of computer networks. It is structured using HTML and styled with CSS, ensuring clarity and visual appeal.
 
 ## Project Structure
 The project consists of the following files and directories:
 
 - `index.html`: The homepage of the website.
 - `pages/`
-  - `history.html`: A page detailing the history of computers.
-  - `types.html`: A page describing different types of computers.
-  - `components.html`: A page explaining the major components of a computer.
-  - `impact.html`: A page discussing the impact of computers on society.
+  - `history.html`: A page detailing the history of computer networks.
+  - `types.html`: A page describing different types of computer networks.
+  - `components.html`: A page explaining the major components of computer networks.
+  - `impact.html`: A page discussing the impact of computer networks on society.
 - `css/style.css`: The stylesheet for the website.
 - `images/`: A directory containing images used in the website.
 
@@ -22,7 +22,7 @@ The homepage introduces the website and provides navigation links to other pages
 
 ```html
 <header>
-    <h1>Computers: The Backbone of Modern Technology</h1>
+    <h1>Computer Networks: Connecting the World</h1>
     <nav>
         <a href="index.html">Home</a>
         <a href="pages/history.html">History</a>
@@ -35,49 +35,50 @@ The homepage introduces the website and provides navigation links to other pages
 This code defines the header section with navigation links to other pages.
 
 #### `history.html`
-The history page provides a timeline of key milestones in the evolution of computers.
+The history page provides a timeline of key milestones in the evolution of computer networks.
 
 ```html
-<h3>Key Milestones in Computer History</h3>
+<h3>Key Milestones in Computer Network History</h3>
 <ul>
-    <li><strong>1837:</strong> Charles Babbage designs the Analytical Engine.</li>
-    <li><strong>1936:</strong> Alan Turing introduces the concept of a universal machine.</li>
-    <li><strong>1943-1944:</strong> The Colossus, the first programmable digital computer, is developed.</li>
+    <li><strong>1960s:</strong> The concept of packet switching is introduced, laying the foundation for modern networking.</li>
+    <li><strong>1969:</strong> ARPANET, the precursor to the internet, is established, connecting four universities in the US.</li>
+    <li><strong>1983:</strong> The TCP/IP protocol becomes the standard for ARPANET, enabling interoperability between networks.</li>
 </ul>
 ```
 This code uses an unordered list to present historical milestones.
 
 #### `types.html`
-The types page describes various forms of computers, including desktops, laptops, tablets, servers, and supercomputers.
+The types page describes various forms of computer networks, including PAN, LAN, MAN, WAN, and wireless networks.
 
 ```html
-<div class="component">
-    <h3>Desktop Computers</h3>
-    <p>Designed for regular use at a single location.</p>
+<div class="network-type">
+    <h3>Local Area Network (LAN)</h3>
+    <p>LANs are networks that connect computers within a limited area, such as a home, office, or school.</p>
+    <img src="../lan.jpg" alt="Local Area Network" width="300">
 </div>
 ```
-This code defines a section for desktop computers.
+This code defines a section for LANs with an image.
 
 #### `components.html`
-The components page explains the major parts of a computer, such as the CPU, RAM, hard drive, motherboard, power supply, and input/output devices.
+The components page explains the major parts of computer networks, such as routers, switches, NICs, access points, and cables.
 
 ```html
 <div class="component">
-    <h3>Central Processing Unit (CPU)</h3>
-    <p>The CPU is the brain of the computer.</p>
-    <img src="C:\Users\princ\Desktop\ComputersWebsite\cpu.jpg" alt="CPU" width="300">
+    <h3>Router</h3>
+    <p>A router is a device that forwards data packets between computer networks, enabling communication and connectivity.</p>
+    <img src="../router.jpg" alt="Router" width="300">
 </div>
 ```
-This code defines a section for the CPU with an image.
+This code defines a section for routers with an image.
 
 #### `impact.html`
-The impact page discusses the positive and negative effects of computers on society.
+The impact page discusses the positive and negative effects of computer networks on society.
 
 ```html
 <h3>Positive Impacts</h3>
 <ul>
-    <li>Enhanced communication through emails and social media.</li>
-    <li>Improved access to education with online learning platforms.</li>
+    <li>Global connectivity enables seamless communication across the globe.</li>
+    <li>Access to information provides instant access to vast amounts of knowledge.</li>
 </ul>
 ```
 This code uses an unordered list to present positive impacts.
@@ -92,8 +93,9 @@ body {
     padding: 0;
 }
 header {
-    background-color: #f4f4f4;
-    padding: 10px;
+    background-color: #1b5e20;
+    color: white;
+    padding: 20px;
     text-align: center;
 }
 ```
@@ -101,10 +103,10 @@ This code styles the body and header sections.
 
 ## Features
 - **Homepage**: Introduces the website and provides navigation links.
-- **History Page**: Details the evolution of computers.
-- **Types Page**: Describes different types of computers.
-- **Components Page**: Explains major computer components with images.
-- **Impact Page**: Discusses the societal impact of computers.
+- **History Page**: Details the evolution of computer networks.
+- **Types Page**: Describes different types of computer networks.
+- **Components Page**: Explains major network components with images.
+- **Impact Page**: Discusses the societal impact of computer networks.
 
 ## Challenges
 - Ensuring the website is visually appealing while maintaining simplicity.
@@ -117,7 +119,7 @@ This code styles the body and header sections.
 - Expanding content to include more detailed information.
 
 ## Conclusion
-This project successfully delivers an educational website about computers. It is a valuable resource for anyone looking to learn about the history, types, components, and societal impact of computers. The structured layout and use of images make the website both informative and engaging.
+This project successfully delivers an educational website about computer networks. It is a valuable resource for anyone looking to learn about the history, types, components, and societal impact of computer networks. The structured layout and use of images make the website both informative and engaging.
 
 ---
 
@@ -133,24 +135,24 @@ pages/
     impact.html
     types.html
 images/
-    cpu.jpg
-    ram.jpg
-    hd.jpg
-    mother.jpg
-    home.png
+    router.jpg
+    lan.jpg
+    man.jpg
+    wan.jpg
+    wireless.jpg
 ```
 
 ### Image Sources
-- `cpu.jpg`: Represents the CPU.
-- `ram.jpg`: Represents RAM.
-- `hd.jpg`: Represents the hard drive.
-- `mother.jpg`: Represents the motherboard.
-- `home.png`: Represents the homepage image.
+- `router.jpg`: Represents a router.
+- `lan.jpg`: Represents a local area network.
+- `man.jpg`: Represents a metropolitan area network.
+- `wan.jpg`: Represents a wide area network.
+- `wireless.jpg`: Represents wireless networks.
 
 ### References
-- Online resources for computer history and components.
-- Educational materials on computer types and societal impact.
+- Online resources for computer network history and components.
+- Educational materials on network types and societal impact.
 
 ---
 
-This report provides a detailed overview of the Computers Website project, highlighting its structure, features, and future potential.
+This report provides a detailed overview of the Computer Networks Website project, highlighting its structure, features, and future potential.
